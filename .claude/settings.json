@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node bimind.mjs:*)",
+      "PowerShell(node bimind.mjs:*)"
+    ]
+  }
+}

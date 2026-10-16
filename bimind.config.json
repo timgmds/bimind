@@ -1,0 +1,7 @@
+{
+  "_aide": "modele = rôles forts (pair, critique, relecteur, auditeur, verificateur, libre). modeleRapide = rôles de collecte (cartographe, lecteur, recherche), pour épargner le quota du modèle fort. modeleSecours = si le modèle prévu a épuisé son quota ou n'est pas proposé par Antigravity. effort = low|medium|high|xhigh|max. Vide = défaut d'agy. Liste : agy models. Un projet peut surcharger ces valeurs dans .bimind/config.json. Gemini 4 Argon n'est dans Antigravity que pour AI Ultra : avec Ultra, mettre \"modele\": \"gemini-4-argon\" (vérifier le nom exact avec agy models). Pour l'utiliser par l'API payante : clé dans GEMINI_API_KEY puis \"modele\": \"api:gemini-4-argon\" (voir README).",
+  "modele": "gemini-3.8-flash-high",
+  "modeleRapide": "gemini-3.8-flash-high",
+  "modeleSecours": "gemini-3.8-flash-high",
+  "effort": ""
+}

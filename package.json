@@ -1,0 +1,13 @@
+{
+  "name": "bimind",
+  "private": true,
+  "description": "Bimind Code : Claude orchestre, Gemini apporte un second regard",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/bimind.test.mjs tests/api.test.mjs tests/install.test.mjs tests/publication.test.mjs",
+    "install-global": "node install.mjs",
+    "uninstall-global": "node install.mjs --desinstaller"
+  }
+}

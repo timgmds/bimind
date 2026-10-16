@@ -1,0 +1,9 @@
+# Journal et brouillons des échanges avec Gemini : contiennent du code et des réponses, jamais publiés
+.bimind/
+# Réglages personnels de Claude Code
+.claude/settings.local.json
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
